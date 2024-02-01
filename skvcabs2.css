@@ -1,0 +1,996 @@
+@media only screen and (max-width: 768px){
+    body{
+        margin: 0;
+    }
+    .main{
+        display: flex;
+    }
+    .container1{
+        background-color: white;
+        width: 50%;
+        height: 599px;
+        position: relative;
+    }   
+    .container2{
+        background: linear-gradient(to bottom, rgb(152, 194, 209), rgb(8, 165, 228));
+        width: 50%;
+        height: 599px;
+    }
+    .container1 #main_image{
+        height: 400px;
+        margin-left: 47%;
+        margin-top: 26%;
+        position: absolute;
+    }
+    .palani_btn{
+        background-color:white;
+        border: none;
+        height: 92px;
+        margin-left: 64%;
+        margin-top: 7%;
+    }
+    #palani_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+    }
+    .palani_btn span{
+        margin-left: 31%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .kodai_btn{
+        background-color:white;
+        border: none;
+        height: 86px;
+        margin-left: 29%;
+        margin-top: -20%;
+    }
+    #kodai_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+    }
+    .kodai_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .munnar_btn{
+        background-color:white;
+        border: none;
+        height: 88px;
+        margin-left: -42%;
+        margin-top: 12%;
+        position: absolute;
+    }
+    #munnar_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+    }
+    .munnar_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .thekkadi_btn{
+        background-color:white;
+        border: none;
+        height: 90px;
+        margin-left: -47%;
+        margin-top: 37%;
+        position: absolute;
+    }
+    #thekkadi_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+    }
+    .thekkadi_btn span{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: -4px;
+    }
+    .iyyappan_btn{
+        background-color:white;
+        border: none;
+        height: 83px;
+        width: 169px;
+        margin-left: -52%;
+        margin-top: 65%;
+        position: absolute;
+    }
+    #iyyappan_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+    }
+    .iyyappan_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .kutralam_btn{
+        background-color:white;
+        border: none;
+        height: 95px;
+        width: 105px;
+        margin-left: -74px;
+        margin-top: 91%;
+        position: absolute;
+    }
+    #kutralam_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+    .kutralam_btn span{
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: -41px;
+    }
+    .kkm_btn{
+        display: flex;
+        margin-left: 85%;
+        margin-top: 90.5%;
+        background-color: transparent;
+        border: none;
+        height: 66px;
+        width: 223px;
+        gap: 4px;
+        position: absolute;
+    }
+    #kkm_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 50px;
+        width: 71px;
+        margin-left: 13px;
+    }
+    .kkm_btn span{
+        margin-top: 12%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .top_left_circle{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(245, 209, 8);
+        border-bottom-right-radius: 100%;
+    }
+    .btm_left_circle1{
+        margin-top: 89%;
+        height: 100px;
+        width: 100px;
+        background-color:rgb(138, 216, 241);
+        border-top-right-radius: 100%;
+    }
+    .btm_left_circle2{
+        margin-top: 52.7px;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-top-right-radius: 100%;
+        position: absolute;
+    }
+    #logo{
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 80px;
+        width: 100px;
+    }
+    .trichy_btn{
+        border: none;
+        height: 120px;
+        margin-top: 2%;
+        background-color: transparent;
+        position: absolute;
+    }
+    #trichy_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 50px;
+        width: 71px;
+    }
+    .trichy_btn span{
+        margin-left: -20%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .tanjore_btn{
+        background-color: transparent;
+        border: none;
+        height: 120px;
+        margin-left: 28%;
+        margin-top: 14%;
+    }
+    #tanjore_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 50px;
+        width: 71px;
+    }
+    .tanjore_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .kumba_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 49%;
+        margin-top: -7%;
+    }
+    #kumba_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 50px;
+        width: 71px;
+    }
+    .kumba_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .ram_btn{
+        background-color: transparent;
+        border: none;
+        height: 190px;
+        margin-left: 53%;
+        margin-top: -14%;
+    }
+    #ram_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 50px;
+        width: 71px;
+    }
+    .ram_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .thiru_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 48%;
+        margin-top: -15%;
+    }
+    #thiru_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 50px;
+        width: 71pxw;
+    }
+    .thiru_btn span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btm_right_circle{
+        background-color: rgb(245, 209, 8);
+        height: 59px;
+        width: 59px;
+        margin-top: -43%;
+        margin-left: 84.7%;
+        border-bottom-left-radius: 100%;
+    }
+    .btm_right_circle1{
+        background-color: rgb(2, 180, 251);
+        height: 146px;
+        width: 150px;
+        margin-top: 8.4%;
+        margin-left: 60.7%;
+        border-top-left-radius: 100%;
+    }
+    .btm_right_circle2{
+        position: absolute;
+        background-color: rgb(245, 209, 8);
+        height: 100px;
+        width: 100px;
+        margin-top: 6.5%;
+        margin-left: 6.5%;
+        border-top-left-radius: 100%;
+    }
+    .btm_right_circle3{
+        position: absolute;
+        background-color: rgb(2, 180, 251);
+        height: 70px;
+        width: 70px;
+        margin-top: 30%;
+        margin-left: 30%;
+        border-top-left-radius: 100%;
+    }
+} 
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 0;
+    }
+    .main{
+        display: flex;
+    }
+    .container1{
+        background-color: white;
+        width: 50%;
+        height: 599px;
+        position: relative;
+    }
+    .container2{
+        background: linear-gradient(to bottom, rgb(152, 194, 209), rgb(8, 165, 228));
+        width: 50%;
+        height: 599px;
+    }
+    .container1 #main_image{
+        height: 380px;
+        margin-left: 62.5%;
+        margin-top: 21%;
+        position: absolute;
+    }
+    .palani_btn{
+        background-color:white;
+        border: none;
+        height: 128px;
+        margin-left: 71%;
+        margin-top: 2%;
+        position: absolute;
+    }
+    #palani_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .palani_btn span{
+        margin-left: 35%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .kodai_btn{
+        background-color:white;
+        border: none;
+        height: 117px;
+        margin-left: 45%;
+        margin-top: 11%;
+        position: absolute;
+    }
+    #kodai_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .kodai_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .munnar_btn{
+        background-color:white;
+        border: none;
+        height: 97px;
+        margin-left: 29%;
+        margin-top: 32%;
+        position: absolute;
+    }
+    #munnar_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .munnar_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .thekkadi_btn{
+        background-color:white;
+        border: none;
+        height: 110px;
+        margin-left: 26%;
+        margin-top: 53%;
+        position: absolute;
+    }
+    #thekkadi_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .thekkadi_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .iyyappan_btn{
+        background-color:white;
+        border: none;
+        height: 129px;
+        width: 216px;
+        margin-left: 20%;
+        margin-top: 74%;
+        position: absolute;
+        background-color: transparent;
+    }
+    #iyyappan_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .iyyappan_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .kutralam_btn{
+        background-color:white;
+        border: none;
+        height: 106px;
+        margin-left: 303px;
+        margin-top: 94%;
+        position: absolute;
+    }
+    #kutralam_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .kutralam_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .kkm_btn{
+        display: flex;
+        margin-left: 90%;
+        margin-top: 98.5%;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        padding: 0;
+    }
+    #kkm_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 70px;
+        width: 90px;
+    }
+    .kkm_btn span{
+        margin-top: 13%;
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+    .top_left_circle{
+        position: absolute;
+        height: 125px;
+        width: 125px;
+        background-color: rgb(245, 209, 8);
+        border-bottom-right-radius: 100%;
+    }
+    .btm_left_circle1{
+        margin-top: 92.2%;
+        height: 125px;
+        width: 125px;
+        background-color:rgb(138, 216, 241);
+        border-top-right-radius: 100%;
+    }
+    .btm_left_circle2{
+        margin-top: 5%;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border-top-right-radius: 100%;
+        position: absolute;
+    }
+    #logo{
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 34%;
+        height: 75px;
+        width: 126px;
+    }
+    .trichy_btn{
+        border: none;
+        height: 120px;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: transparent;
+        position: absolute;
+    }
+    #trichy_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 70px;
+        width: 90px;
+    }
+    .trichy_btn span{
+        margin-left: -15%;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .tanjore_btn{
+        background-color: transparent;
+        border: none;
+        height: 120px;
+        margin-left: 13%;
+        margin-top: 3%;
+        position: absolute;
+    }
+    #tanjore_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 70px;
+        width: 90px;
+    }
+    .tanjore_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .kumba_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 13%;
+        position: absolute;
+    }
+    #kumba_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 70px;
+    }
+    .kumba_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .ram_btn{
+        background-color: transparent;
+        border: none;
+        height: 190px;
+        margin-left: 22%;
+        margin-top: 23%;
+        position: absolute;
+    }
+    #ram_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 70px;
+        width: 90px;
+    }
+    .ram_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .thiru_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 19%;
+        margin-top: 37%;
+        position: absolute;
+    }
+    #thiru_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 70px;
+        width: 90px;
+    }
+    .thiru_btn span{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .btm_right_circle{
+        background-color: rgb(245, 209, 8);
+        height: 65px;
+        width: 65px;
+        margin-top: 64%;
+        margin-left: 87.2%;
+        border-bottom-left-radius: 100%;
+        position: relative;
+    }
+    .btm_right_circle1{
+        background-color: rgb(2, 180, 251);
+        height: 125px;
+        width: 125px;
+        margin-top: 16%;
+        margin-left: 75.6%;
+        border-top-left-radius: 100%;
+    }
+    .btm_right_circle2{
+        position: absolute;
+        background-color: rgb(245, 209, 8);
+        height: 100px;
+        width: 100px;
+        margin-top: 2.4%;
+        margin-left: 2.4%;
+        border-top-left-radius: 100%;
+    }
+    .btm_right_circle3{
+        position: absolute;
+        background-color: rgb(2, 180, 251);
+        height: 70px;
+        width: 70px;
+        margin-top: 30%;
+        margin-left: 30%;
+        border-top-left-radius: 100%;
+    }
+} 
+
+@media only screen and (min-width: 1440px){
+    body{
+        margin: 0;
+    }
+    .main{
+        display: flex;
+    }
+    .container1{
+        background-color: white;
+        width: 50%;
+        height: 695px;
+        position: relative;
+    }
+    .container2{
+        background: linear-gradient(to bottom, rgb(152, 194, 209), rgb(8, 165, 228));
+        width: 50%;
+        height: 695px;
+    }
+    .container1 #main_image{
+        height: 430px;
+        margin-left: 71.4%;
+        margin-top: 16%;
+        position: absolute;
+    }
+    .palani_btn{
+        background-color:white;
+        border: none;
+        height: 150px;
+        margin-left: 75%;
+        margin-top: 1%;
+    }
+    #palani_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 80px;
+    
+    }
+    .palani_btn span{
+        margin-left: 65%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .kodai_btn{
+        background-color:white;
+        border: none;
+        height: 120px;
+        width: 130px;
+        margin-left: 58%;
+        margin-top: 10%;
+    }
+    #kodai_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 80px;
+    }
+    .kodai_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .munnar_btn{
+        background-color:white;
+        border: none;
+        height: 120px;
+        width: 130px;
+        margin-left: 43%;
+        margin-top: 25%;
+    }
+    #munnar_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 80px;
+    }
+    .munnar_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .thekkadi_btn{
+        background-color:white;
+        border: none;
+        height: 120px;
+        width: 130px;
+        margin-left: 42%;
+        margin-top: 42%;
+    }
+    #thekkadi_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 80px;
+    }
+    .thekkadi_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .iyyappan_btn{
+        background-color:white;
+        border: none;
+        height: 120px;
+        width: 200px;
+        margin-left: 45%;
+        margin-top: 60%;
+    }
+#iyyappan_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 90px;
+        width: 120px;
+}
+.iyyappan_btn span{
+        font-size: 20px;
+        font-weight: bold;
+}
+.kutralam_btn{
+        background-color:white;
+        border: none;
+        height: 140px;
+        width: 150px;
+        margin-left: 70%;
+        margin-top: 71%;
+    }
+    #kutralam_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 90px;
+        width: 120px;
+    }
+    .kutralam_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .kkm_btn{
+        display: flex;
+        margin-left: 94%;
+        margin-top: 78%;
+        height: 140px;
+        width: 150px;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+    }
+    #kkm_img{
+        border-top: 5px solid rgb(110, 203, 240);
+        border-bottom: 5px solid rgb(110, 203, 240);
+        border-left: 3px solid rgb(110, 203, 240);
+        border-right: 3px solid rgb(110, 203, 240);
+        height: 65px;
+    }
+    .kkm_btn span{
+        margin-top: 13%;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+    .top_left_circle{
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        background-color: rgb(245, 209, 8);
+       border-bottom-right-radius: 100%;
+    }
+    .btm_left_circle1{
+        position: absolute;
+        margin-top: 71.7%;
+        height: 150px;
+        width: 160px;
+        background-color:rgb(138, 216, 241);
+        border-top-right-radius: 100%;
+    }
+    .btm_left_circle2{
+        margin-top: 30.6%;
+        height: 100px;
+        width: 110px;
+        background-color: white;
+        border-top-right-radius: 100%;
+        position: absolute;
+    }
+    #logo{
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 38%;
+        height: 100px;
+        width: 150px;
+    }
+    .trichy_btn{
+        border: none;
+        height: 120px;
+        margin-left: 2%;
+        margin-top: 1%;
+        background-color: transparent;
+        position: absolute;
+    }
+    #trichy_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 80px;
+    }
+    .trichy_btn span{
+        margin-left: -20%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .tanjore_btn{
+        border: none;
+        height: 120px;
+        margin-left: 10%;
+        margin-top: 4%;
+        background-color: transparent;
+        position: absolute;
+    }
+    #tanjore_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 80px;
+    }
+    .tanjore_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .kumba_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 18%;
+        margin-top: 10%;
+    }
+    #kumba_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 80px;
+    }
+    .kumba_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    } 
+    .ram_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 18%;
+        margin-top: 20%;
+    }
+    #ram_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 80px;
+        width: 110px;
+    }
+    .ram_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .thiru_btn{
+        background-color: transparent;
+        border: none;
+        height: 150px;
+        margin-left: 15%;
+        margin-top: 30%;
+    }
+    #thiru_img{
+        border-top: 5px solid rgb(243, 245, 118);
+        border-bottom: 5px solid rgb(243, 245, 118);
+        border-left: 3px solid rgb(243, 245, 118);
+        border-right: 3px solid rgb(243, 245, 118);
+        height: 80px;
+        width: 110px;
+    }
+    .thiru_btn span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btm_right_circle{
+        background-color: rgb(245, 209, 8);
+        height: 70px;
+        width: 70px;
+        margin-top: 25%;
+        margin-left: 44.8%;
+        border-bottom-left-radius: 100%;
+        position: absolute;
+    }
+    .btm_right_circle1{
+        background-color: rgb(2, 180, 251);
+        height: 200px;
+        width: 200px;
+        margin-top: 64.9%;
+        margin-left: 73.7%;
+        border-top-left-radius: 100%;
+    }
+    .btm_right_circle2{
+        position: absolute;
+        background-color: rgb(245, 209, 8);
+        height: 150px;
+        width: 150px;
+        margin-top: 3.4%;
+        margin-left: 3.3%;
+        border-top-left-radius: 100%;
+    }
+    .btm_right_circle3{
+        position: absolute;
+        background-color: rgb(2, 180, 251);
+        height: 100px;
+        width: 100px;
+        margin-top: 33%;
+        margin-left: 33%;
+        border-top-left-radius: 100%;
+    }
+    
+}

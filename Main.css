@@ -1,0 +1,584 @@
+@media only screen and (max-width: 768px){
+    body{
+        margin: 0;
+    }
+    .whole{
+        display: flex;
+    }
+    .leftcontain{
+        background-color: white;
+        width: 50%;
+        height: 599px;
+        position: relative;
+    }
+    .rightcontain{
+        background-color: white;
+        width: 50%;
+        height: 599px;
+    }
+    .top_left_circle{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(245, 209, 8);
+        border-bottom-right-radius: 100%;
+    } 
+    .top_left_circle1{
+        background-color: skyblue;
+        height: 50px;
+        width: 50px;
+        margin-top: 13.5%;
+        border-bottom-right-radius: 100%;
+        position: absolute;
+    } 
+    .top_right_circle{
+        height: 82px;
+        width: 82px;
+        background-color:rgb(138, 216, 241);
+        border-bottom-left-radius: 100%;
+        margin-left: 78.6%;
+        margin-top: 0%;
+    }
+    .top_right_circle1{
+        height: 60px;
+        width: 60px;
+        background-color: white;
+        border-bottom-left-radius: 100%;
+        position: absolute;
+        margin-left: 5.9%;
+    }
+    #about_us{
+        display: flex;
+        gap: 30px;
+        margin-left: 9%;
+        margin-top: -10%;
+    }
+    .about_img img{
+        height: 125px;
+        width: 125px;
+        border-radius: 20px;
+        margin-top: 26%;
+    }
+    #abt_content h1{
+        color: skyblue;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -1%;
+        font-size: 21px;
+        margin-left: -18px;
+    }
+    #abt_content p{
+        text-align: justify;
+        width: 88%;
+        font-weight: bolder;
+        font-size: 12px;
+        margin-left: -10%;
+    }
+    #our_vision{
+        display: flex;
+        margin-left: 9%;
+        margin-top: -3%;
+        padding: 0;
+    }
+    #vision_content h1{
+        color: skyblue;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    #vision_content p{
+        text-align: justify;
+        width: 78%;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    .vision_img img{
+        height: 125px;
+        width: 125px;
+        border-radius: 20px;
+        margin-left: -23%;
+        margin-top: 28%;
+    }
+    #services{
+        display: flex;
+        gap: 50px;
+        margin-left: 12%;
+        margin-top: 7%; 
+    }
+    .services_img img{
+        height: 125px;
+        width: 125px;
+        border-radius: 20px;
+        margin-top: 2%;
+    }
+    #services_content h1{
+        color: skyblue;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -19%;
+        font-size: 21px;
+        margin-left: -13%;
+    }
+    #services_content ul{
+        text-align: justify;
+        width: 91%;
+        font-weight: bolder;
+        margin-top: -6%;
+        margin-left: -32%;
+    }
+    #services_content ul li{
+        font-size: 12px;
+    }
+    .btm_left_circle{
+        margin-top: -6.5%;
+        height: 75px;
+        width: 75px;
+        background-color: skyblue;
+        border-top-right-radius: 100%;
+        position: absolute;
+    }
+    .t_right_circle{
+        height: 150px;
+        width: 150px;
+        background-color: skyblue;
+        position: absolute;
+        margin-left: 40.1%;
+        border-bottom-left-radius: 100%;
+    }
+    }
+    .t_right_circle .yellow_line{
+        height: 6px;
+        width: 60px;
+        border-radius: 20px;
+        background-color: rgb(245, 209, 8);
+        margin-left: 35%;
+    }
+    #logo_image{
+        height: 90px;
+        width: 100px;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    #plan{
+        color: skyblue;
+        margin-top: 27%;
+        font-weight: bolder;
+        margin-left: 12%;
+        font-size: 26px;
+    }
+    #plan1{
+        font-size: 17px;
+        margin-left: 12%;
+        margin-top: -2%;
+    }
+    #main_pic{
+        height: 380px;
+        width: 335px;
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    
+    #booknow{
+        background-color: skyblue;
+        margin-top: 4%;
+        margin-left: 20%;
+        font-size: 30px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    #booknow a{
+        color: white;
+        text-decoration: none;}
+
+
+
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 0;
+    }
+    .whole{
+        display: flex;
+    }
+    .leftcontain{
+        background-color: white;
+        width: 50%;
+        height: 599px;
+        position: relative;
+    }
+    .rightcontain{
+        background-color: white;
+        width: 50%;
+        height: 599px;
+    }
+    .top_left_circle{
+        position: absolute;
+        height: 65px;
+        width: 65px;
+        background-color: rgb(245, 209, 8);
+        border-bottom-right-radius: 100%;
+    } 
+    .top_left_circle1{
+        background-color: skyblue;
+        height: 65px;
+        width: 65px;
+        margin-top: 13.5%;
+        border-bottom-right-radius: 100%;
+    } 
+    .top_right_circle{
+        height: 100px;
+        width: 100px;
+        background-color:rgb(138, 216, 241);
+        border-bottom-left-radius: 100%;
+        margin-left: 80.3%;
+        margin-top: -27%;
+        position: absolute;
+    }
+    .top_right_circle1{
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-bottom-left-radius: 100%;
+        position: absolute;
+        margin-left: 20.9%;
+    }
+    #about_us{
+        display: flex;
+        gap: 50px;
+        margin-left: 12%;
+        margin-top: -16%;
+    }
+    .about_img img{
+        height: 130px;
+        width: 130px;
+        border-radius: 20px;
+        margin-top: 24%;
+        margin-left: 12%;
+    }
+    #abt_content h1{
+        color: skyblue;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3%;
+        font-size: 25px;
+    }
+    #abt_content p{
+        text-align: justify;
+        width: 75%;
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    #our_vision{
+        display: flex;
+        margin-left: 12%;
+        margin-top: -2%;
+    }
+    #vision_content h1{
+        color: skyblue;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        font-size: 25px;
+    }
+    #vision_content p{
+        text-align: justify;
+        width: 70%;
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    .vision_img img{
+        height: 140px;
+        width: 140px;
+        border-radius: 20px;
+        margin-left: -49%;
+        margin-top: 22%;
+    }
+    #services{
+        display: flex;
+        gap: 50px;
+        margin-left: 12%;
+    }
+    .services_content{
+        margin-top: -1%;
+    }
+    .services_img img{
+        height: 130px;
+        width: 130px;
+        border-radius: 20px;
+        margin-top: 15%;
+    }
+    #services_content h1{
+        color: skyblue;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: -2%;
+        font-size: 25px;
+    }
+    #services_content ul{
+        text-align: justify;
+        width: 72%;
+        font-weight: bolder;
+        margin-top: -6%;
+        margin-left: -9%;
+    }
+    #services_content ul li{
+        font-size: 13px;
+        margin-top: -1%;
+    }
+    .btm_left_circle{
+        margin-top: -22%;
+        height: 110px;
+        width: 110px;
+        background-color: skyblue;
+        border-top-right-radius: 100%;
+    }
+    .t_right_circle{
+        height: 150px;
+        width: 150px;
+        background-color: skyblue;
+        position: absolute;
+        margin-left: 35.5%;
+        border-bottom-left-radius: 100%;
+    }
+    .t_right_circle .yellow_line{
+        height: 6px;
+        width: 60px;
+        border-radius: 20px;
+        background-color: rgb(245, 209, 8);
+        margin-left: 45%;
+    }
+    #logo_image{
+        height: 105px;
+        width: 165px;
+        position: absolute;
+        margin-left: 4%;
+    }
+    #plan{
+        color: skyblue;
+        margin-top: 26%;
+        font-weight: bolder;
+        margin-left: 12%;
+        position: relative;
+        margin-top: 20%;
+    }
+    #plan1{
+        font-size: 25px;
+        margin-left: 12%;
+        margin-top: 1%;
+    }
+    #main_pic{
+        height: 330px;
+        width: 400px;
+        margin-left: 15%;
+        margin-top: 3%;
+    }
+    
+    #booknow{
+        background-color: skyblue;
+        margin-top: 10%;
+        margin-left: 30%;
+        font-size: 30px;
+        border: none;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    }
+    #booknow a{
+        color: white;
+        text-decoration: none;
+    }}
+
+
+
+@media only screen and (min-width: 1440px){
+        body{
+            margin: 0;
+        }
+        .whole{
+            display: flex;
+        }
+        .leftcontain{
+            background-color: white;
+            width: 50%;
+            height: 695px;
+            position: relative;
+        }
+        .rightcontain{
+            background-color: white;
+            width: 50%;
+            height: 695px;
+        }
+        .top_left_circle{
+            position: absolute;
+            height: 65px;
+            width: 65px;
+            background-color: rgb(245, 209, 8);
+            border-bottom-right-radius: 100%;
+        } 
+        .top_left_circle1{
+            background-color: skyblue;
+            height: 65px;
+            width: 65px;
+            margin-top: 8.5%;
+            border-bottom-right-radius: 100%;
+        } 
+        .top_right_circle{
+            height: 130px;
+            width: 130px;
+            background-color:rgb(138, 216, 241);
+            border-bottom-left-radius: 100%;
+            margin-left: 83.3%;
+            margin-top: -17%;
+        }
+        .top_right_circle1{
+            height: 80px;
+            width: 80px;
+            background-color: white;
+            border-bottom-left-radius: 100%;
+            position: absolute;
+            margin-left: 39.5%;
+        }
+        #about_us{
+            display: flex;
+            gap: 50px;
+            margin-left: 12%;
+            margin-top: -10%;
+        }
+        .about_img img{
+            margin-top: 5%;
+            height: 180px;
+            width: 180px;
+            border-radius: 20px;
+        }
+        #abt_content h1{
+            color: skyblue;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top:2%;
+        }
+        #abt_content p{
+            font-size: 15px;
+            text-align: justify;
+            width: 75%;
+            font-weight: bolder;
+        }
+        #our_vision{
+            margin-top: 1.5%;
+            display: flex;
+            margin-left: 15%;
+        }
+        #vision_content h1{
+            color: skyblue;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #vision_content p{
+            font-size: 15px;
+            text-align: justify;
+            width: 67%;
+            font-weight: bolder;
+        }
+        .vision_img img{
+            height: 180px;
+            width: 180px;
+            border-radius: 20px;
+            margin-left: -60%;
+            margin-top: 6%;
+        }
+        #services{
+            margin-top: 3%;
+            display: flex;
+            gap: 50px;
+            margin-left: 14%;
+        }
+        .services_img img{
+            height: 180px;
+            width: 180px;
+            border-radius: 20px;
+            margin-top: 2%;
+        }
+        #services_content h1{
+            color: skyblue;
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -2%;
+        }
+        #services_content ul{
+            text-align: justify;
+            width: 67%;
+            font-weight: bolder;
+            margin-top: -3%;
+            margin-left: -5%;
+        }
+        #services_content ul li{
+            font-size: 15px;
+        }
+        .btm_left_circle{
+            margin-top: -15.5%;
+            height: 150px;
+            width: 150px;
+            background-color: skyblue;
+            border-top-right-radius: 100%;
+        }
+        .t_right_circle{
+            height: 150px;
+            width: 150px;
+            background-color: skyblue;
+            position: absolute;
+            margin-left: 40.1%;
+            border-bottom-left-radius: 100%;
+        }
+        .t_right_circle h2{
+            color: white;
+            margin-left: 5%;
+        }
+        .t_right_circle .yellow_line{
+            height: 6px;
+            width: 60px;
+            border-radius: 20px;
+            background-color: rgb(245, 209, 8);
+            margin-left: 45%;
+            /* margin-top: -9%; */
+        }
+        #logo_image{
+            height: 150px;
+            width: 180px;
+            position: absolute;
+            margin-left: 5%;
+        }
+        #plan{
+            color: skyblue;
+            margin-top: 15%;
+            font-weight: bolder;
+            margin-left: 12%;
+            position: relative;
+            margin-top: 20%;
+        }
+        #plan1{
+            font-size: 25px;
+            margin-left: 12%;
+            margin-top: 2%;
+        }
+        #main_pic{
+            height: 420px;
+            width: 580px;
+            margin-left: 14%;
+            margin-top: -1%;
+        }
+        
+        #booknow{
+            background-color: skyblue;
+            margin-top: 10%;
+            margin-left: 30%;
+            font-size: 30px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+        #booknow a{
+            color: white;
+            text-decoration:none;}
+}

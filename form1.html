@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inquiry Form</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        font-family: Roboto, Arial;
+      }
+      .flex {
+        display: flex;
+        background-color: #f9f8f8;
+        width: 60;
+        border-radius: 12px;
+      } 
+      
+      .flex > div {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px rgb(90, 191, 224);;
+        border-radius: 40px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        justify-content: center;
+        align-items: center;
+      }
+      .flex > .addr {
+        background-color:rgb(90, 191, 224);
+        width: 300px;
+        
+      }
+      .flex > .entry {
+        width: 50%;
+        margin-left: 185px;
+        margin-right: 20px;
+      }
+      input[type="text"],
+      input[typetel],
+      input[typedate],
+      input[type="select"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(141, 139, 139);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        resize: vertical;
+      }
+      input[type="submit"] {
+        background-color:rgb(90, 191, 224);;
+        border-radius: 16px;
+        border: none;
+        padding: 8px;
+        color: rgb(245, 245, 245);
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: rgb(3, 3, 3);;
+      }
+      input[type="submit"]:active {
+        opacity: 0.15;
+      }
+      p {
+        color: white;
+      }
+      .flex > .entry > .firstname {
+        width: 35%;
+        margin-right: 22px;
+        margin-left: 8px;
+      }
+      .flex > .entry > .lastname {
+        width: 35%;
+        margin-left: 8px;
+      }
+      .flex > .entry > .dstn {
+        padding: 2px;
+        width: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="entry">
+        <label for="fname">First Name</label>
+        <input
+          type="text" 
+          id="fname"
+          name="firstname"
+          placeholder="Your name..."
+          class="firstname"
+
+        />
+        <label for="lname"><br>Last Name</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lname"
+          placeholder="Your last name..."
+          class="lastname"
+        />
+        <br /><br />
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="You number..."
+          class="es"
+        />
+
+        <label for="email">&nbsp; &nbsp; Email id</label>
+        <input
+          type="email"
+          name="email"
+          id="mail"
+          placeholder="Your email..."
+        />
+        
+
+        <label for="ppl">&nbsp; &nbsp; <br>Pax of people</label>
+        <input type="number" id="ppl" name="ppl" />
+        <br /><br />
+        <label for="date">Check In</label>
+        <input type="date" id="date" name="date" class="es" />
+        <label for="fdate">Check Out</label>
+        
+        <input type="date" id="fdate" name="fdate" />
+        <br /><br />
+        <label for="dstn">Choose Destination</label>
+        <select class="dstn" id="dstn" name="dstn" aria-placeholder="select">
+          <option value="kodaikanal">Kodaikanal</option>
+          <option value="munnar">Munnar</option>
+          <option value="thekkadi">Thekkadi</option>
+          <option value="iyappantemple">Iyappan Temple</option>
+          <option value="kutralam">Kutralam</option>
+          <option value="kanyakumari">Kanyakumari</option>
+          <option value="tiruchendur">Tiruchendur</option>
+          <option value="rameshwaram">Rameshwaram</option>
+          <option value="kumbakonam">kumbakonam</option>
+          <option value="thanjavur">Thanjavur</option>
+          <option value="trichy">Trichy</option>
+          <option value="palani">Palani</option>
+        </select>
+        <br /><br />
+        <label for="desc">Anything you want us to Know</label>
+        <textarea
+          name="desc"
+          id="description"
+          placeholder="Your Description...."
+          style="height: 200px"
+        >
+        </textarea>
+        <input type="submit" value="Submit" />
+      </div>
+
+      <div class="addr">
+        <p style="text-align: center;color: black;font-size: 30px;"><strong>SKV  CABS<hr></strong></p>
+        <p style="text-align:left;color:black;"><ul>
+           <li> 7, Sivasakthi  nagar,P&T Nagar Extension,Anaiyur,Mdu-625017.</li><br>
+          <li> Contact: +91 98421  63339, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91  94870 07339.</li>
+        </p>
+
+      </div>
+    </div>
+  </body>
+</html>
